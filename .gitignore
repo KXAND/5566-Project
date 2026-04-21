@@ -1,0 +1,24 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# OS / editor
+Thumbs.db
+.DS_Store
+
+# PowerPoint files
+*.pptx
+
+# Generated databases and checkpoints
+*.sqlite
+*.checkpoint.jsonl
+
+# Generated analysis outputs
+output/
+
+# agent references
+ref/
+
+# pdf
+*.pdf
