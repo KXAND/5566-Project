@@ -3,8 +3,8 @@ import argparse
 import os
 from pathlib import Path
 
-from import_records_to_sqlite import import_to_sqlite
-from summarize_flashloans_with_deepseek import (
+from scripts.summarize.import_records_to_sqlite import import_to_sqlite
+from scripts.summarize.summarize_flashloans_with_deepseek import (
     build_local_stats,
     fetch_rows,
     load_checkpoint,
